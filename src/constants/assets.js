@@ -1,13 +1,13 @@
-import modelPhoto from '../assets/images/model-photo.jpg';
-import modelPhotoTransparent from '../assets/images/model-photo-transparent.png';
-import modelPhotoStandingRaw from '../assets/images/model-photo-standing-raw.jpg';
-import modelPhotoFrontRaw from '../assets/images/model-photo-front-raw.png';
+import modelPhoto from '../assets/images/model-photo.webp';
+import modelPhotoTransparent from '../assets/images/model-photo-transparent.webp';
+import modelPhotoStandingRaw from '../assets/images/model-photo-standing-raw.webp';
+import modelPhotoFrontRaw from '../assets/images/model-photo-front-raw.webp';
 
-import founderWhiteBlazer from '../assets/images/founder-white-blazer.jpg';
-import editorialBwFlowers from '../assets/images/editorial-bw-flowers.jpg';
-import editorialBronzeStool from '../assets/images/editorial-bronze-stool.jpg';
-import milestoneVogueStage from '../assets/images/milestone-vogue-stage.jpg';
-import milestoneRisePresentation from '../assets/images/milestone-rise-presentation.jpg';
+import founderWhiteBlazer from '../assets/images/founder-white-blazer.webp';
+import editorialBwFlowers from '../assets/images/editorial-bw-flowers.webp';
+import editorialBronzeStool from '../assets/images/editorial-bronze-stool.webp';
+import milestoneVogueStage from '../assets/images/milestone-vogue-stage.webp';
+import milestoneRisePresentation from '../assets/images/milestone-rise-presentation.webp';
 
 export const MODEL_IMAGE = modelPhoto;
 export const MODEL_TRANSPARENT_IMAGE = modelPhotoTransparent;
