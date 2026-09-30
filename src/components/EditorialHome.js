@@ -7,7 +7,7 @@ export default function EditorialHome() {
     <section id="home" className="relative min-h-screen w-full bg-[#FFAD5A] text-[#171717] flex items-center justify-center overflow-x-hidden px-5 sm:px-8 md:px-12 lg:px-16 xl:px-20 py-16 sm:py-20 lg:py-8 pt-24 sm:pt-28 lg:pt-20">
       {/* Centered Hero Container */}
       <div className="w-full max-w-7xl mx-auto flex flex-col lg:flex-row items-center justify-center gap-8 sm:gap-10 lg:gap-12 xl:gap-16">
-        
+
         {/* LEFT COLUMN: Model Photograph (Enhanced Scale & Positioned toward the Left) */}
         <motion.div
           initial={{ opacity: 0, y: 24 }}
@@ -18,7 +18,7 @@ export default function EditorialHome() {
           <div className="relative w-full max-w-[460px] sm:max-w-[540px] lg:max-w-[620px] xl:max-w-[660px] flex items-end justify-center lg:justify-start">
             <img
               src={MODEL_TRANSPARENT_IMAGE}
-              alt="Shilpa Seetharaman - CEO & Founder, Vogue Modeling Company & Rise Academy"
+              alt="Shilpah Seetharaman - Founder & CEO  , Vogue Modeling Company & Rise Academy"
               className="w-auto h-auto max-h-[55vh] sm:max-h-[68vh] lg:max-h-[85vh] xl:max-h-[88vh] 2xl:max-h-[90vh] object-contain object-bottom drop-shadow-[0_18px_35px_rgba(0,0,0,0.13)] select-none pointer-events-none"
               loading="eager"
             />
