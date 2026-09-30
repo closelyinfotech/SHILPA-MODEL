@@ -60,11 +60,10 @@ export default function Navbar() {
   return (
     <>
       <header
-        className={`fixed top-0 left-0 w-full z-40 transition-all duration-500 ${
-          isScrolled
+        className={`fixed top-0 left-0 w-full z-40 transition-all duration-500 ${isScrolled
             ? 'bg-[#F7F4EF]/90 backdrop-blur-md py-4 border-b border-[#111111]/10 shadow-sm text-[#111111]'
             : 'bg-transparent py-5 sm:py-6 text-[#171717]'
-        }`}
+          }`}
       >
         <div className="max-w-7xl mx-auto px-5 sm:px-8 md:px-12 flex items-center justify-between">
           {/* Left Brand: SHILPA SEETHARAMAN */}
@@ -77,7 +76,7 @@ export default function Navbar() {
               {portfolioData.brandInfo.name}
             </span>
             <span className="text-[9px] uppercase tracking-[0.28em] text-[#171717]/70 font-name-sans -mt-0.5">
-              CEO &amp; Founder
+              Founder  &amp; CEO
             </span>
           </a>
 
@@ -90,11 +89,10 @@ export default function Navbar() {
                   key={item.label}
                   href={item.href}
                   onClick={(e) => handleNavClick(e, item.href)}
-                  className={`relative py-1 text-xs tracking-[0.2em] uppercase transition-all duration-300 font-name-sans font-medium ${
-                    isActive
+                  className={`relative py-1 text-xs tracking-[0.2em] uppercase transition-all duration-300 font-name-sans font-medium ${isActive
                       ? 'text-[#111111] font-bold'
                       : 'text-[#171717]/70 hover:text-[#111111]'
-                  }`}
+                    }`}
                 >
                   <span>{item.label}</span>
                   {isActive && (
@@ -175,9 +173,8 @@ export default function Navbar() {
                     <a
                       href={item.href}
                       onClick={(e) => handleNavClick(e, item.href)}
-                      className={`font-serif-quote italic text-3xl sm:text-4xl tracking-wide transition-colors duration-300 flex items-center justify-between ${
-                        isActive ? 'text-[#111111] font-semibold' : 'text-[#777777] hover:text-[#111111]'
-                      }`}
+                      className={`font-serif-quote italic text-3xl sm:text-4xl tracking-wide transition-colors duration-300 flex items-center justify-between ${isActive ? 'text-[#111111] font-semibold' : 'text-[#777777] hover:text-[#111111]'
+                        }`}
                     >
                       <span>{item.label}</span>
                       <span className="text-xs font-name-sans not-italic text-[#777777]/60 font-medium">

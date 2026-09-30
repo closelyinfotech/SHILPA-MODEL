@@ -35,7 +35,7 @@ export default function EditorialHome() {
           {/* Main Name */}
           <div className="mb-4 sm:mb-6 lg:mb-7 w-full">
             <h1 className="font-name-sans font-extrabold text-3xl sm:text-4xl md:text-5xl lg:text-[2.75rem] xl:text-[3.5rem] 2xl:text-[3.9rem] tracking-tight text-[#171717] leading-[0.98] uppercase">
-              SHILPA <br />
+              SHILPAH <br />
               SEETHARAMAN
             </h1>
           </div>
@@ -43,7 +43,7 @@ export default function EditorialHome() {
           {/* Professional Designation */}
           <div className="mb-8 sm:mb-10 lg:mb-12 space-y-1 sm:space-y-1.5 w-full">
             <p className="font-name-sans text-xs sm:text-sm md:text-[0.95rem] font-bold tracking-[0.24em] text-[#171717]/90 uppercase leading-relaxed">
-              CEO &amp; FOUNDER
+              FOUNDER &amp; CEO
             </p>
             <p className="font-name-sans text-xs sm:text-sm md:text-[0.95rem] font-bold tracking-[0.24em] text-[#171717]/90 uppercase leading-relaxed">
               VOGUE MODELING COMPANY &amp; RISE ACADEMY

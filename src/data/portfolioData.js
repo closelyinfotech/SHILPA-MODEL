@@ -13,8 +13,8 @@ import {
 export const portfolioData = {
   // Brand & Hero Identity
   brandInfo: {
-    name: "SHILPA SEETHARAMAN",
-    title: "CEO & FOUNDER",
+    name: "SHILPAH SEETHARAMAN",
+    title: "FOUNDER & CEO",
     company: "VOGUE MODELING COMPANY & RISE ACADEMY",
     tagline: "Confidence in Every Frame.",
     subTagline: "Where confidence meets creativity.",
@@ -48,12 +48,12 @@ export const portfolioData = {
 
   // About Narrative
   about: {
-    heading: "ABOUT SHILPA",
-    lead: "Shilpa Seetharaman is a model, entrepreneur, mentor and the CEO & Founder of Vogue Modeling Company and Rise Academy.",
+    heading: "ABOUT SHILPAH",
+    lead: "Shilpah Seetharaman is a model, entrepreneur, mentor and the Founder & CEO of Vogue Modeling Company and Rise Academy.",
     story: [
       "With over a decade of hands-on experience gracing fashion runways and editorial campaigns, Shilpa Seetharaman has carved a distinctive presence in the modeling and fashion industry.",
       "Recognizing the need for structured talent empowerment, she evolved from modeling into founding Vogue Modeling Company and Rise Academy. Over the past 5+ years, her organizations have become premier platforms dedicated to discovering, training, and launching aspiring talent.",
-      "Having mentored more than 500 aspiring models, Shilpa’s mission remains rooted in nurturing unshakeable confidence, editorial versatility, and creating real, transformative opportunities for emerging faces across the fashion world."
+      "Having mentored more than 500 aspiring models, Shilpah’s mission remains rooted in nurturing unshakeable confidence, editorial versatility, and creating real, transformative opportunities for emerging faces across the fashion world."
     ],
     image: FOUNDER_WHITE_BLAZER,
     secondaryImage: EDITORIAL_BW_FLOWERS,
@@ -94,7 +94,7 @@ export const portfolioData = {
       id: 3,
       title: "The Executive Presence",
       category: "Commercial",
-      subtitle: "CEO & Founder Portfolio",
+      subtitle: "Founder & CEO  Portfolio",
       image: FOUNDER_WHITE_BLAZER,
       aspect: "aspect-[3/4]",
       featured: true,
@@ -201,7 +201,7 @@ export const portfolioData = {
     phone: "+91 98400 12345",
     location: "Chennai, India • Available Pan-India & Globally",
     instagram: "https://instagram.com",
-    instagramHandle: "@shilpa.seetharaman",
+    instagramHandle: "@shilpah.seetharaman",
     whatsapp: "https://wa.me/919840012345",
     whatsappNumber: "+91 98400 12345",
     projectTypes: [
